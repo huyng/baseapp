@@ -12,4 +12,8 @@ RESET="\033[0m"
 
 echo "${GREEN}=> Running tests ...${RESET}"
 
+
 echo "run tests here"
+
+env/bin/python -c "import sanity; sanity.check()"
+
