@@ -1,7 +1,6 @@
 # Quick start: creating a new project  #
     
-    git clone git@github.com:huyng/baseapp.git
-    rm -rf baseapp/.git
+    git archive git@github.com:huyng/baseapp.git
     mv baseapp my_new_application
     cd my_new_application
     python bootstrap.py
